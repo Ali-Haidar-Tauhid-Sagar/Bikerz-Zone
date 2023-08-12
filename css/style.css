@@ -1,0 +1,46 @@
+.custom-container{
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.bz-carousel{
+    background-color: rgb(252, 165, 165);
+}
+
+.slider-container .carousel-control-next, .slider-container .carousel-control-prev{
+    width: 2.5%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    .slider-container .carousel-control-prev{
+      left: 8px;
+      width: 6%;
+    }
+    .slider-container .carousel-control-next{
+        right: 8px;
+        width: 6%;
+      }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .slider-container .carousel-control-prev{
+      left: 10px;
+      width: 3%;
+    }
+    .slider-container .carousel-control-next{
+        right: 10px;
+        width: 3%;
+      }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px){
+    .slider-container .carousel-control-prev{
+        left: 5px;
+        width: 3%;
+    }
+    .slider-container .carousel-control-next{
+        right: 5px;
+        width: 3%;
+      }
+}
+
